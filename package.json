@@ -1,0 +1,22 @@
+{
+  "name": "d3a-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "author": "Jyothi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.172",
+    "cypress": "^6.9.1",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "cypress-file-upload": "^5.0.3",
+    "js-loader": "^0.1.1"
+  },
+  "dependencies": {},
+  "description": ""
+}
